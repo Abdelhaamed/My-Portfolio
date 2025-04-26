@@ -1,7 +1,6 @@
 import React from "react";
 import "./nav.css";
 import { FaHome } from "react-icons/fa";
-import { IoPerson } from "react-icons/io5";
 import { MdHomeRepairService } from "react-icons/md";
 import { FaImage } from "react-icons/fa6";
 import { MdContactPhone } from "react-icons/md";

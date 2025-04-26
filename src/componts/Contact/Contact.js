@@ -9,7 +9,6 @@ import { motion } from "motion/react";
 import fadin from "../framermotion/fadin.js";
 import { useState } from "react";
 function Contact() {
-  const [isFocused, setIsFocused] = useState(false);
   const [text, setText] = useState("");
   const [email, setemail] = useState("");
   const [area, setarea] = useState("");
@@ -88,8 +87,6 @@ function Contact() {
               type="text"
               value={text}
               onChange={(e) => setText(e.target.value)}
-              onFocus={() => setIsFocused(true)}
-              onBlur={() => setIsFocused(false)}
               whileFocus={{
                 borderColor: "#00bfff",
                 boxShadow: "0px 0px 12px #00bfff",
@@ -106,8 +103,6 @@ function Contact() {
               type="email"
               value={email}
               onChange={(e) => setemail(e.target.value)}
-              onFocus={() => setIsFocused(true)}
-              onBlur={() => setIsFocused(false)}
               whileFocus={{
                 borderColor: "#00bfff",
                 boxShadow: "0px 0px 12px #00bfff",
@@ -124,8 +119,6 @@ function Contact() {
               placeholder="Message"
               value={area}
               onChange={(e) => setarea(e.target.value)}
-              onFocus={() => setIsFocused(true)}
-              onBlur={() => setIsFocused(false)}
               whileFocus={{
                 borderColor: "#00bfff",
                 boxShadow: "0px 0px 12px #00bfff",
