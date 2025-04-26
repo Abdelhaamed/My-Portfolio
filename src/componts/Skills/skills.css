@@ -1,0 +1,81 @@
+:root {
+  --primary-color: #58c4dc;
+}
+.title {
+  color: var(--primary-color);
+  font-size: 170px;
+  font-weight: 700;
+  text-align: center;
+  margin: 100px auto;
+}
+.title span {
+  color: white;
+  font-size: 250px;
+  font-weight: 900;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto 180px auto;
+  width: 70%;
+  flex-direction: row;
+  gap: 20px;
+}
+.skills div {
+  margin: 10px;
+  padding: 30px 30px;
+  border-radius: 30px;
+  background-color: white;
+  color: var(--primary-color);
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.skills div svg {
+  font-size: 200px;
+}
+
+@media (max-width: 768px) {
+  .title {
+    color: var(--primary-color);
+    font-size: 100px;
+    font-weight: 700;
+    text-align: center;
+    margin: 80px auto;
+  }
+  .title span {
+    color: white;
+    font-size: 170px;
+    font-weight: 900;
+  }
+  .skills {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .skills div {
+    margin: 10px 0px;
+    padding: 20px 10px;
+    border-radius: 30px;
+    background-color: white;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .skills div svg {
+    font-size: 45px;
+  }
+}
