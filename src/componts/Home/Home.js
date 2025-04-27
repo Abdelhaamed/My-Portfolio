@@ -45,6 +45,7 @@ const Home = () => {
             <span className="small">I'm </span>{" "}
             {letters.map((letter, index) => (
               <motion.span
+                className="letter"
                 key={index}
                 initial={{
                   opacity: 0,
@@ -68,29 +69,6 @@ const Home = () => {
                   y: 40, // عند الخروج يتحرك للأعلى
                 }}
                 style={{ display: "inline-block" }}
-                className={
-                  [
-                    "A",
-                    "b",
-                    "d",
-                    "e",
-                    "l",
-                    "h",
-                    "a",
-                    "m",
-                    "e",
-                    "d",
-                    "Y",
-                    "o",
-                    "u",
-                    "s",
-                    "s",
-                    "e",
-                    "f",
-                  ].includes(letter)
-                    ? "color-text"
-                    : ""
-                }
               >
                 {letter}
               </motion.span>
