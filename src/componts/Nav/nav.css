@@ -106,7 +106,7 @@
     width: 100vw;
     height: 90px;
     color: white;
-    font-size: 35px;
+
     position: fixed;
     top: 100%;
     transform: translateY(-100%);
@@ -118,15 +118,18 @@
     padding: 15px 8px;
     flex-wrap: nowrap;
     align-items: stretch;
+    box-sizing: border-box;
   }
-
   .nav a {
     position: relative;
 
     transition: all 0.3s ease;
+    gap: 0px;
+
+    padding: 20px;
   }
 
   .nav span {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
