@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.63301f6e.css",
+    "main.js": "/My-Portfolio/static/js/main.d49cdfe4.js",
+    "static/js/453.b88efcb5.chunk.js": "/My-Portfolio/static/js/453.b88efcb5.chunk.js",
+    "static/media/quran.png": "/My-Portfolio/static/media/quran.3d20b546cd0f71cb3531.png",
+    "static/media/cruds.png": "/My-Portfolio/static/media/cruds.28e1ac0235e98ff03fc4.png",
+    "static/media/undraw_programming_65t2.svg": "/My-Portfolio/static/media/undraw_programming_65t2.78da2b653387be812fb07f7d80b399da.svg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.63301f6e.css.map": "/My-Portfolio/static/css/main.63301f6e.css.map",
+    "main.d49cdfe4.js.map": "/My-Portfolio/static/js/main.d49cdfe4.js.map",
+    "453.b88efcb5.chunk.js.map": "/My-Portfolio/static/js/453.b88efcb5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63301f6e.css",
+    "static/js/main.d49cdfe4.js"
+  ]
+}
