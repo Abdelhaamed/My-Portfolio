@@ -78,7 +78,7 @@ function Skills() {
             initial="initial"
             whileInView="animate"
             whileHover={{
-              scale: 1.2,
+              scale: 1.1,
 
               boxShadow: "0px 0px 20px rgba(255, 255, 255, 0.8)",
               transition: {

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { motion } from "motion/react";
 import fadin from "../framermotion/fadin.js";
 const Home = () => {
-  const letters = "Abdelhamed Youssef".split("");
+  const letters = " Abdelhamed  Youssef".split("");
   return (
     <div className="home">
       <motion.div className="container">
@@ -42,7 +42,7 @@ const Home = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           >
-            <span className="small">I'm </span>{" "}
+            <span className="small"> I'm </span>{" "}
             {letters.map((letter, index) => (
               <motion.span
                 className="letter"
@@ -56,7 +56,7 @@ const Home = () => {
                   y: 0,
                   x: 0,
                   transition: {
-                    duration: 1.2,
+                    duration: 1.6,
                     delay: 0.1 * index, // التأخير بين الحروف
                     ease: [0.25, 0.25, 0.25, 0.75],
                     type: "spring",
@@ -68,9 +68,12 @@ const Home = () => {
                   opacity: 0,
                   y: 40, // عند الخروج يتحرك للأعلى
                 }}
-                style={{ display: "inline-block" }}
+                style={{
+                  display: "inline-block",
+                  ...(letter === " " ? { width: "10px" } : {}), // إضافة مساحة للمسافة
+                }}
               >
-                {letter}
+                {letter === " " ? "\u00A0" : letter}
               </motion.span>
             ))}
           </motion.h1>
