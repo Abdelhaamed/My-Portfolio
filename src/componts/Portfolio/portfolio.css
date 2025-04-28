@@ -82,12 +82,19 @@ img {
 }
 
 @media (max-width: 768px) {
+  .card {
+    margin: 10px auto 120px;
+  }
+  .port {
+    padding: 18px;
+  }
+
   .titlep {
     color: var(--primary-color);
     font-size: 50px !important;
     font-weight: 600;
     text-align: center;
-    margin: 80px auto;
+    margin: 35px auto;
   }
   .titlep span {
     color: white;
@@ -95,19 +102,27 @@ img {
     font-weight: 900;
   }
   .image {
-    width: 330px;
-    height: 300px;
+    width: 310px;
+    height: 250px;
     overflow: hidden;
     border-radius: 15px;
     position: relative;
   }
   .button div {
-    font-size: 20px;
+    font-size: 15px;
     padding: 10px 40px;
     background-color: black;
     color: white;
     border-radius: 10px;
     cursor: pointer;
     margin: 5px;
+  }
+
+  .port .adress {
+    font-size: 25px;
+  }
+
+  .button {
+    gap: 5px;
   }
 }

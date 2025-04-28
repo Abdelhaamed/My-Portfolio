@@ -140,6 +140,7 @@
   }
 
   .rightside {
+    padding: 10px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -155,12 +156,12 @@
   .letter {
     color: var(--primary-color);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .rightside h2 {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 20px;
     color: var(--primary-color);
   }
   .rightside p {
@@ -171,16 +172,16 @@
 
   .butones {
     display: flex;
-    gap: 25px;
+    gap: 20px;
   }
   .butones button {
     padding: 10px 15px;
-    border: 3px solid var(--primary-color);
+    border: 2px solid var(--primary-color);
     background-color: black;
     color: white;
     font-weight: bolder;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 8px;
   }
 }
