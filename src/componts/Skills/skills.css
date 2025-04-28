@@ -3,14 +3,14 @@
 }
 .title {
   color: var(--primary-color);
-  font-size: 170px;
+  font-size: 150px;
   font-weight: 700;
   text-align: center;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 .title span {
   color: white;
-  font-size: 250px;
+  font-size: 200px;
   font-weight: 900;
 }
 
@@ -19,18 +19,18 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 auto 180px auto;
+  margin: 0 auto 120px auto;
   width: 70%;
   flex-direction: row;
   gap: 20px;
 }
 .skills div {
-  margin: 10px;
-  padding: 30px 30px;
+  margin: 5px;
+  padding: 20px;
   border-radius: 30px;
   background-color: white;
   color: var(--primary-color);
-  font-size: 60px;
+  font-size: 20px;
   font-weight: 700;
   text-align: center;
   cursor: pointer;
@@ -39,7 +39,7 @@
   align-items: center;
 }
 .skills div svg {
-  font-size: 200px;
+  font-size: 80px;
 }
 
 @media (max-width: 768px) {
