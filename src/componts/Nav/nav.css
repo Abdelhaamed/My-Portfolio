@@ -42,7 +42,7 @@
   .label {
     display: block;
     position: absolute;
-    right: 120px;
+    right: 100px;
     background-color: var(--primary-color);
     padding: 15px 20px;
     border-radius: 20px;
