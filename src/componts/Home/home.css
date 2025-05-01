@@ -156,7 +156,7 @@
   .letter {
     color: var(--primary-color);
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .rightside h2 {

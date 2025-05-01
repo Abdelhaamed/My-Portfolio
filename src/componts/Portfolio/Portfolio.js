@@ -20,20 +20,6 @@ function Portfolio() {
       demo: "https://abdelhaamed.github.io/quran_api/",
       git: "https://github.com/Abdelhaamed/quran_api",
     },
-    {
-      id: "3",
-      img: cruds,
-      title: "Cruds pure js",
-      demo: "https://abdelhaamed.github.io/Cruds_pure_js-/",
-      git: "https://github.com/Abdelhaamed/Cruds_pure_js-",
-    },
-    {
-      id: "4",
-      img: quran,
-      title: "quran_api",
-      demo: "https://abdelhaamed.github.io/quran_api/",
-      git: "https://github.com/Abdelhaamed/quran_api",
-    },
   ];
   return (
     <>

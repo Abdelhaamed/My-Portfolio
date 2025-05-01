@@ -70,7 +70,7 @@ const Home = () => {
                 }}
                 style={{
                   display: "inline-block",
-                  ...(letter === " " ? { width: "10px" } : {}), // إضافة مساحة للمسافة
+                  ...(letter === " " ? { width: "6px" } : {}), // إضافة مساحة للمسافة
                 }}
               >
                 {letter === " " ? "\u00A0" : letter}
