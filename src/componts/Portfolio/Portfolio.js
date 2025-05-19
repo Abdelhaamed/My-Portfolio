@@ -2,6 +2,7 @@ import React from "react";
 import "./portfolio.css";
 import quran from "../images/quran.png";
 import cruds from "../images/cruds.png";
+import buildfolio from "../images/buildfolio.PNG";
 import { motion } from "motion/react";
 import fadin from "../framermotion/fadin.js";
 function Portfolio() {
@@ -19,6 +20,13 @@ function Portfolio() {
       title: "quran_api",
       demo: "https://abdelhaamed.github.io/quran_api/",
       git: "https://github.com/Abdelhaamed/quran_api",
+    },
+    {
+      id: "3",
+      img: buildfolio,
+      title: "construction company website",
+      demo: "https://www.fnoon.com.sa/",
+      git: "https://github.com/Abdelhaamed/aqari-buildfolio-cms",
     },
   ];
   return (
